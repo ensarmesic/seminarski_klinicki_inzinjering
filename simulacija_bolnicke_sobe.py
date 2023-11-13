@@ -146,7 +146,7 @@ class Logiranje:
 # Primjer koda za upravljanje elektromagnetskim izvorima i praćenje medicinske opreme u bolnici
 bolnicki_sistem = BolnickiSistem()
 
-wifi_router = ElektromagnetskiIzvor("WiFi usmjerivač", logger=bolnicki_sistem.logger)
+wifi_router = ElektromagnetskiIzvor("WiFi router", logger=bolnicki_sistem.logger)
 mobilni_telefon = ElektromagnetskiIzvor("Mobilni telefon", logger=bolnicki_sistem.logger)
 racunar = ElektromagnetskiIzvor("Računar", logger=bolnicki_sistem.logger)
 
